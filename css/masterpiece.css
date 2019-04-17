@@ -1,0 +1,116 @@
+* 
+{
+    box-sizing: content-box;
+}
+
+html 
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    /* structure */
+    margin: 0 auto;
+    /*height: 100%;
+    width: 100%;*/
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* presentation */
+    background-image: url('../img/brique.jpg');
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+canvas
+{
+    background-image:url('../img/tableau.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 40px outset white;
+}
+
+h2 {
+    color:#fff;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+}
+h3 {
+    color:black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+button {
+    padding: 0.8em;
+    display: inline;
+    margin-left:10px;
+}
+
+#black{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left:10px;
+}
+#brown{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #5c2121;
+    border-radius: 50%;
+   margin-left:15px;
+}
+
+#red{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #8B0000;
+    border-radius: 50%;
+    margin-left:7px;
+}
+
+#yellow{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    margin-left:10px;
+}
+
+#green{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #32CD32;
+    border-radius: 50%;
+    margin-left:10px;
+}
+
+#turquoise{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #00CED1;
+    border-radius: 50%;
+    margin-left:10px;
+}
+#blue{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #007FFF;
+    border-radius: 50%;
+    margin-left:10px;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Ardoise</title>
+
+    <link rel="stylesheet" href="css/masterpiece.css">
+    
+    <!-- Librairies et classes -->
+    <script src="js/utilities.js"></script>
+    <script src="js/class/Disk.js"></script>
+    <!-- Stylesheet-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<main>
+		<h2>Back to school !</h2>
+    <canvas id="toile" width="800" height="600"></canvas>
+    <table class="instructions">
+    	<tr>
+    		<td><h3>Outils :</h3></td>
+            <td><button id="brush-button" class="pinceau"><i class="fas fa-paint-brush"></i></button></td>
+    		<td><button id="eraser-button" class="gomme"><i class="fas fa-eraser"></i></button></td>
+    		<td><button id="pipette-button" class="pipette"><i class="fas fa-eye-dropper"></i></button></td>
+            <td><button id="save-button" class="enregistrer"><i class="fas fa-save"></i><a href=""> Enregistrer</a></button></td>
+		</tr>
+    	<tr>
+    		<td id="couleurs"><h3>Couleurs :</h3></td>
+    		<td><span id="black" data-color="black" class="color-btn"></span></td>
+			<td><span id="brown" data-color="brown" class="color-btn"></span></td>
+			<td><span id="red" data-color="red" class="color-btn"></span></td>
+			<td><span id="yellow" data-color="yellow" class="color-btn"></span></td>
+			<td><span id="green" data-color="green" class="color-btn"></span></td>
+			<td><span id="turquoise" data-color="turquoise" class="color-btn"></span></td>
+			<td><span id="blue" data-color="blue" class="color-btn"></span></td>
+		</tr>
+		<tr>
+			<td><h3>Epaisseur :</h3></td>
+			<td><button id="fine" data-weight="5" class="epaisseur-btn">Fin</button></td>
+			<td><button id="normal" data-weight="10"class="epaisseur-btn">Normal</button></td>
+			<td><button id="epais" data-weight="20"class="epaisseur-btn">Epais</button></td>
+		</tr>
+	</table>
+  	</main>
+    <!-- Code principal -->
+    <script src="js/jquery-3.3.1.min.js?uid=<?= date("Y-m-d-h-i-s") ?>"></script>
+    <script src="js/test.js"></script>
+</body>
+</html>
